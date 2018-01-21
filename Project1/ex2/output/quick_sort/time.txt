@@ -1,0 +1,6 @@
+time:0
+time:1e-06
+time:1.8e-05
+time:0.000195
+time:0.001954
+time:0.018733

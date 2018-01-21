@@ -1,0 +1,2 @@
+Tree[number / 3] = Tree[60 / 3] = Tree[20] = 109
+Tree[number / 4] = Tree[59 / 4] = Tree[14] = 89

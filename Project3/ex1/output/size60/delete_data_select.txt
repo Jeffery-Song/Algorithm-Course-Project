@@ -1,0 +1,3 @@
+A[number / 3] = A[60 / 3] = A[20] = 109
+set number / 3 to INT32_MAX, so when search for i-th small value, it acts like the number has been deleted
+A[number / 4] = A[59 / 4] = A[14] = 89

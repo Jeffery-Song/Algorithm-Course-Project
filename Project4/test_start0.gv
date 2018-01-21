@@ -1,0 +1,27 @@
+digraph G {
+    0[style = diagonals];
+    0 -> 1 [label = 0] [style = bold][color = red];
+    0 -> 4 [label = 2] [style = bold][color = red];
+    1 -> 2 [label = 1] [style = bold][color = red];
+    1 -> 4 [label = 4];
+    1 -> 5 [label = 3] [style = bold][color = red];
+    1 -> 7 [label = 5];
+    2 -> 0 [label = 11];
+    2 -> 1 [label = 8];
+    2 -> 6 [label = 4] [style = bold][color = red];
+    3 -> 2 [label = 8];
+    3 -> 6 [label = 1];
+    4 -> 1 [label = 0];
+    4 -> 3 [label = 6] [style = bold][color = red];
+    4 -> 5 [label = 1];
+    5 -> 0 [label = 0];
+    5 -> 1 [label = 3];
+    5 -> 2 [label = 5];
+    5 -> 3 [label = 8];
+    5 -> 4 [label = 3];
+    5 -> 7 [label = 0] [style = bold][color = red];
+    6 -> 4 [label = 4];
+    6 -> 7 [label = 5];
+    7 -> 4 [label = 1];
+    7 -> 5 [label = 5];
+}
